@@ -6,6 +6,8 @@ and Architecture design. Requirement V2 is a document which include raw requirem
 
 # SET UP 
 Here are the following set up that you need to do to run the project:
-- Microsoft SQL Server Management studio (for managing database)
-- Local host XAMPP
-- SQLSRV Driver API Reference
+- Microsoft SQL Server Management studio (for managing database) [Visit MS SQL]([https://github.com/](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- Local host XAMPP [Visit XAMPP]([https://github.com/](https://www.apachefriends.org/)https://www.apachefriends.org/)
+
+- SQLSRV Driver API Reference [Visit SQLSRV API]([https://github.com/](https://learn.microsoft.com/en-us/sql/connect/php/sqlsrv-driver-api-reference?view=sql-server-ver16)https://learn.microsoft.com/en-us/sql/connect/php/sqlsrv-driver-api-reference?view=sql-server-ver16)
+
