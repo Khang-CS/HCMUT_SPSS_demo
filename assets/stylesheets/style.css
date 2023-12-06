@@ -1,0 +1,206 @@
+.loginPage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logDiv {
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 30px;
+
+}
+
+.logButton {
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    height: 100px;
+    border: 5px solid #000;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.logButton:hover {
+    background-color: grey;
+}
+
+.navigationBar {
+    border: 5px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.logoutButton:hover {
+    color: grey;
+}
+
+.homePage {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.feature {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.featureContent {
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.featureContent a {
+    color: black;
+}
+
+.featureContent:hover {
+    background-color: grey;
+}
+
+.featureManagePrinters {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.featureManagePrintersContent {
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.featureManagePrintersContent a {
+    color: black;
+}
+
+.featureManagePrintersContent:hover {
+    background-color: grey;
+}
+
+.commonButton {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 30px;
+    color: black;
+}
+
+.commonButton:hover {
+    background-color: grey;
+}
+
+.searchForm {
+    margin-bottom: 30px;
+}
+
+.searchField {
+    display: inline-block;
+    width: 60%;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.searchButton {
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.searchButton:hover {
+    background-color: grey;
+}
+
+.listRow {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.printerCol {
+    height: 300px;
+
+}
+
+.printer {
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.printer img {
+    padding-top: 20px;
+    width: 100px;
+}
+
+.printer h3 {
+    padding-top: 20px;
+}
+
+.printer a {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.moreButton {
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.deleteButton {
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.deleteButton:hover {
+    background-color: #7e0000;
+}
+
+.moreButton:hover {
+    background-color: #004ba8;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .searchField {
+        width: 70%;
+    }
+}
