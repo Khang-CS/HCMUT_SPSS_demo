@@ -21,6 +21,6 @@ Here are the following set up that you need to do to run the project:
 - Thanh Vũ - searchPrinter
 - Duy Nghiêm -  updatePrinter
 
-- class Brand
+* class Brand
 
 - Nguyễn Khoa Nam - class Brand
