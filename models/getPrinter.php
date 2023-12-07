@@ -133,7 +133,7 @@ class Printer
         return NULL;
     }
 
-    //Anh Khiem
+    //Anh   Nghiem
     static function updatePrinter($printerID, $brand, $printerModel, $campus, $building, $room, $isEnabled, $Description_D)
     {
         $db = DB::getInstance();
