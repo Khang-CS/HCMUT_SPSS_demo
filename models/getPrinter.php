@@ -36,6 +36,7 @@ class Printer
         return $list;
     }
 
+    //Anh Vu
     static function searchPrinter($printerInfo)
     {
         $list = [];
@@ -69,6 +70,7 @@ class Printer
         return $list;
     }
 
+    //Le Nguyen Khanh
     static function filterPrinter($brand, $campus, $building, $room)
     {
         if ($brand === '0' && $campus === '0' && $building === '0' && $room === '0') {
@@ -112,6 +114,7 @@ class Printer
         return $list;
     }
 
+    //Anh Nhan
     static function getPrinterInfo($printerID)
     {
         $db = DB::getInstance();
@@ -130,6 +133,7 @@ class Printer
         return NULL;
     }
 
+    //Anh Khiem
     static function updatePrinter($printerID, $brand, $printerModel, $campus, $building, $room, $isEnabled, $Description_D)
     {
         $db = DB::getInstance();
@@ -148,6 +152,7 @@ class Printer
         $stmt->execute();
     }
 
+    //Anh Khoa
     static function addNewPrinter($printerID, $brand, $printerModel, $campus, $building, $room, $isEnabled, $Description_D)
     {
         $db = DB::getInstance();
@@ -167,6 +172,7 @@ class Printer
     }
 }
 
+// Khoa
 class Brand
 {
     public $brandID;
